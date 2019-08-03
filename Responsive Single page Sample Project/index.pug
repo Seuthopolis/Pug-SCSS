@@ -1,0 +1,338 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport', content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0')
+        meta(http-equiv='X-UA-Compatible', content='ie=edge')
+        title Task Four
+        link(rel='stylesheet', href='task4.css')
+        link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css')
+        script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js')
+        script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js')
+        script(src='assets/script.js')
+    body
+        header
+            nav.navbar.navbar-default.navbar-fixed-top.navbar-inner
+                .container-fluid
+                    .navbar-header
+                        button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
+                            span.sr-only Toggle navigation
+                            span.icon-bar
+                            span.icon-bar
+                            span.icon-bar
+                        a.navbar-brand.brand(href='#')
+                            img(src='assets/images/4_logo.png', alt='Logo')
+                        .switch-lang.navbar-right
+                            .current-lang
+                                p.lang-text БГ
+                            .lang-dropdown
+                                .selecting-lang
+                                    p.lang-text ES
+                                .selecting-lang
+                                    p.lang-text EN
+                    #bs-example-navbar-collapse-1.collapse.navbar-collapse
+                        ul.nav.navbar-nav.navbar-left
+                            li.items
+                                a(href='#home') Home
+                            li.items
+                                a(href='#cars') Cars
+                                ul.sub-items
+                                    li
+                                        a(href='#bmw') BMW
+                                    li
+                                        a(href='#benz') Mercedes
+                            li.items
+                                a(href='#food') Food
+                                ul.sub-items
+                                    li
+                                        a(href='#meat') Meat
+                                    li
+                                        a(href='#vegetables') Vegetables
+                            li.items
+                                a(href='#animals') Animals
+                                ul.sub-items
+                                    li
+                                        a(href='#cats') Cats
+                                    li
+                                        a(href='#dogs') Dogs
+            #home.container-fluid
+                .space.row
+                    .col-md-12
+                        .text-center.intro
+                            h1 TASK FOUR
+                            h4.red three are dead i am number four
+                            img.img-responsive(src='assets/images/4_poster.jpg', alt='Main poster')
+        main.container
+            #transmutation.cars
+                .container-fluid
+                    .row.text-center
+                        .space.col-xs-12.col-sm-12.col-md-12
+                            h1#cars CARS
+                            article.col-xs-12.space
+                                h3#bmw BMW
+                                h4 PRODUCTION MODELS:
+                                .col-md-1
+                                    .caption
+                                        img.img-responsive(src='assets/images/bmw_x1.jpg', alt='BMW X1')
+                                        h4 BMW X1
+                                .col-md-1
+                                    img.img-responsive(src='assets/images/bmw_x6.jpg', alt='BMW X6')
+                                    h4 BMW X6
+                                .col-md-1
+                                    img.img-responsive(src='assets/images/bmw_1_series.jpg', alt='BMW 1')
+                                    h4 BMW 1 Series
+                                .col-md-1
+                                    img.img-responsive(src='assets/images/bmw_2_series.jpg', alt='BMW 2')
+                                    h4 BMW 2 Series
+                                .col-md-1
+                                    img.img-responsive(src='assets/images/bmw_1_series.jpg', alt='BMW 3')
+                                    h4 BMW 3 Series
+                                .col-md-1
+                                    img.img-responsive(src='assets/images/bmw_4_series.jpg', alt='BMW 4')
+                                    h4 BMW 4 Series
+                                .col-md-1
+                                    img.img-responsive(src='assets/images/bmw_x6.jpg', alt='BMW X6')
+                                    h4 BMW X6
+                                .col-md-1
+                                    img.img-responsive(src='assets/images/bmw_7_series.jpg', alt='BMW 7')
+                                    h4 BMW 7 Series
+                                .col-md-1
+                                    img.img-responsive(src='assets/images/bmw_i_8.jpg', alt='BMW i8')
+                                    h4 BMW i8
+                                .col-md-1
+                                    img.img-responsive(src='assets/images/bmw_4_series.jpg', alt='BMW X1')
+                                    h4 BMW X1
+                                .col-md-1
+                                    img.img-responsive(src='assets/images/bmw_2_series.jpg', alt='BMW M2')
+                                    h4 BMW M2
+                                .col-md-1
+                                    img.img-responsive(src='assets/images/bmw_i_8.jpg', alt='BMW X4')
+                                    h4 BMW X4
+                            article
+                                h3#benz MERCEDES BENZ
+                                h4 PRODUCTION MODELS:
+                                .col-md-1
+                                    img.img-responsive(src='assets/images/glc.jpg', alt='GLC')
+                                    h4 GLC Class
+                                .col-md-1
+                                    img.img-responsive(src='assets/images/gle.jpg', alt='GLE')
+                                    h4 GLE Class
+                                .col-md-1
+                                    img.img-responsive(src='assets/images/gls.jpg', alt='GLS')
+                                    h4 GLS Class
+                                .col-md-1
+                                    img.img-responsive(src='assets/images/glc.jpg', alt='GLC')
+                                    h4 GLC Class
+                                .col-md-1
+                                    img.img-responsive(src='assets/images/gle.jpg', alt='GLE')
+                                    h4 GLE Class
+                                .col-md-1
+                                    img.img-responsive(src='assets/images/gls.jpg', alt='GLS')
+                                    h4 GLS Class
+                                .col-md-1
+                                    img.img-responsive(src='assets/images/glc.jpg', alt='GLC')
+                                    h4 GLC Class
+                                .col-md-1
+                                    img.img-responsive(src='assets/images/gle.jpg', alt='GLE')
+                                    h4 GLE Class
+                                .col-md-1
+                                    img.img-responsive(src='assets/images/gls.jpg', alt='GLS')
+                                    h4 GLS Class
+                                .col-md-1
+                                    img.img-responsive(src='assets/images/glc.jpg', alt='GLC')
+                                    h4 GLC Class
+                                .col-md-1
+                                    img.img-responsive(src='assets/images/gle.jpg', alt='GLE')
+                                    h4 GLE Class
+                                .col-md-1
+                                    img.img-responsive(src='assets/images/gls.jpg', alt='GLS')
+                                    h4 GLS Class
+            .food
+                .container-fluid
+                    .row.text-center
+                        .space.col-xs-12.col-sm-12.col-md-12
+                            h1#food FOOD
+                            article.food-articles.col-xs-12.space
+                                h3#meat MEAT
+                                p.col-xs-12.col-md-6
+                                    | Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    | industry. Lorem Ipsum has been the industry's standard
+                                    | dummy
+                                    | text ever
+                                    | since
+                                    | the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                    | specimen book.
+                                    | It has survived not only five centuries, but also the leap into electronic typesetting,
+                                    | remaining essentially unchanged. Lorem Ipsum is simply dummy
+                                    | text of
+                                    | the
+                                    | printing and typesetting industry.
+                                p.col-xs-12.col-md-6.space
+                                    | Lorem Ipsum is simply dummy text of the printing and
+                                    | typesetting industry. Lorem Ipsum has been the industry's standard
+                                    | dummy
+                                    | text ever
+                                    | since
+                                    | the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                    | specimen book.
+                                    | It has survived not only five centuries, but also the leap into electronic typesetting,
+                                    | remaining essentially unchanged. Lorem Ipsum is simply dummy
+                                    | text of
+                                    | the
+                                    | printing and typesetting industry.
+                                .col-md-2
+                                    img.img-responsive(src='assets/images/1d.jpg', alt='Day One')
+                                    .caption
+                                        h4 Day One
+                                        p Lorem ipsum dolor sit amet
+                                .col-md-2
+                                    img.img-responsive(src='assets/images/2d.jpg', alt='Day Two')
+                                    .caption
+                                        h4 Day Two
+                                        p Lorem ipsum dolor sit amet
+                                .col-md-2
+                                    img.img-responsive(src='assets/images/3d.jpg', alt='Day Three')
+                                    .caption
+                                        h4 Day Three
+                                        p Lorem ipsum dolor sit amet
+                                .col-md-2
+                                    img.img-responsive(src='assets/images/4d.jpg', alt='Day Four')
+                                    .caption
+                                        h4 Day Four
+                                        p Lorem ipsum dolor sit amet
+                                .col-md-2
+                                    img.img-responsive(src='assets/images/5d.jpg', alt='Day Five')
+                                    .caption
+                                        h4 Day Five
+                                        p Lorem ipsum dolor sit amet
+                                .col-md-2
+                                    img.img-responsive(src='assets/images/6d.jpg', alt='Day Six')
+                                    .caption
+                                        h4 Day Six
+                                        p Lorem ipsum dolor sit amet
+                            article.food-articles.col-xs-12
+                                h3#vegetables VEGETABLES
+                                p.col-xs-12.col-md-6
+                                    | Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    | industry. Lorem Ipsum has been the industry's standard
+                                    | dummy
+                                    | text ever
+                                    | since
+                                    | the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                    | specimen book.
+                                    | It has survived not only five centuries, but also the leap into electronic typesetting,
+                                    | remaining essentially unchanged. Lorem Ipsum is simply dummy
+                                    | text of
+                                    | the
+                                    | printing and typesetting industry.
+                                p.col-xs-12.col-md-6.space
+                                    | Lorem Ipsum is simply dummy text of the printing and
+                                    | typesetting industry. Lorem Ipsum has been the industry's standard
+                                    | dummy
+                                    | text ever
+                                    | since
+                                    | the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                    | specimen book.
+                                    | It has survived not only five centuries, but also the leap into electronic typesetting,
+                                    | remaining essentially unchanged. Lorem Ipsum is simply dummy
+                                    | text of
+                                    | the
+                                    | printing and typesetting industry.
+                                .col-md-2
+                                    img.img-responsive(src='assets/images/1dv.jpg', alt='Day One')
+                                    .caption
+                                        h4 Day One
+                                        p Lorem ipsum dolor sit amet
+                                .col-md-2
+                                    img.img-responsive(src='assets/images/2dv.jpg', alt='Day Two')
+                                    .caption
+                                        h4 Day Two
+                                        p Lorem ipsum dolor sit amet
+                                .col-md-2
+                                    img.img-responsive(src='assets/images/3dv.jpg', alt='Day Three')
+                                    .caption
+                                        h4 Day Three
+                                        p Lorem ipsum dolor sit amet
+                                .col-md-2
+                                    img.img-responsive(src='assets/images/4dv.jpg', alt='Day Four')
+                                    .caption
+                                        h4 Day Four
+                                        p Lorem ipsum dolor sit amet
+                                .col-md-2
+                                    img.img-responsive(src='assets/images/5dv.jpg', alt='Day Five')
+                                    .caption
+                                        h4 Day Five
+                                        p Lorem ipsum dolor sit amet
+                                .col-md-2
+                                    img.img-responsive(src='assets/images/6dv.jpg', alt='Day Six')
+                                    .caption
+                                        h4 Day Six
+                                        p Lorem ipsum dolor sit amet
+            #animals.animals
+                .container-fluid
+                    .row
+                        .text-center.col-xs-12.col-sm-12.col-md-12
+                            h1 ANIMALS
+                    #cats.row.cats
+                        .col-xs-12.col-sm-4.col-md-4
+                            .thumbnail
+                                img.img-responsive(src='assets/images/milo.jpg', alt='Milo')
+                                .caption
+                                    h3 Milo
+                                    p Lorem ipsum dolor sit amet.
+                        .col-xs-12.col-sm-4.col-md-4
+                            .thumbnail
+                                img.img-responsive(src='assets/images/loki.jpg', alt='Loki')
+                                .caption
+                                    h3 Loki
+                                    p Lorem ipsum dolor sit.
+                        .col-xs-12.col-sm-4.col-md-4
+                            .thumbnail
+                                img.img-responsive(src='assets/images/luna.jpg', alt='Luna')
+                                .caption
+                                    h3 Luna
+                                    p Lorem ipsum dolor sit amet, consectetur
+                    #dogs.space.row.dogs
+                        .col-xs-12.col-sm-4.col-md-4
+                            .thumbnail
+                                img.img-responsive(src='assets/images/bo.jpg', alt='Bo')
+                                .caption
+                                    h3 BO
+                                    p Lorem ipsum dolor sit amet
+                        .col-xs-12.col-sm-4.col-md-4
+                            .thumbnail
+                                img.img-responsive(src='assets/images/duke.jpg', alt='Duke')
+                                .caption
+                                    h3 Duke
+                                    p Lorem ipsum dolor sit amet
+                        .col-xs-12.col-sm-4.col-md-4
+                            .thumbnail
+                                img.img-responsive(src='assets/images/finn.jpg', alt='Finn')
+                                .caption
+                                    h3 Finn
+                                    p Lorem ipsum dolor sit amet
+            aside
+                div
+                    a.message-trigger(href='#', data-target='#message', data-toggle='modal') 💬
+                #message.modal.fade.col-xs-12(role='dialog')
+                    .modal-dialog
+                        .modal-content
+                            .modal-body
+                                button.close(data-dismiss='modal') ×
+                                h4 Message
+                                form
+                                    input.form-control(type='text', name='name', placeholder='Name', required='')
+                                    input.form-control(type='email', name='email', placeholder='Email', required='')
+                                    textarea.col-xs-12.form-control(rows='4', placeholder='Your message here', required='')
+                                    input.btn.message(type='submit', value='Message')
+        footer
+            .container-fluid
+                .row
+                    .col-xs-1.col-xs-offset-9
+                        .text-center.go-up
+                            a(href='#home') ⌃
+                    .col-xs-12.text-center
+                        p
+                            a(href='#')
+                                img(src='assets/images/4_logo.png', alt='Bottom Logo')
+                        p Copyright 2019. All Rights Reserved
